@@ -14,7 +14,6 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -60,9 +59,5 @@ I would like to continue workibng on the hero section since, that has image that
 - Website - [Daniel Anguzu](https://www.your-site.com)
 - Frontend Mentor - [@anguzuDaniel](https://www.frontendmentor.io/profile/anguzuDaniel)
 <!-- - Twitter - [@yourusername](https://www.twitter.com/yourusername) -->
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 

@@ -1,0 +1,35 @@
+:root {
+	// PRIMARY COLORS
+	--color-dark-blue: hsl(233, 26%, 24%);
+	--color-lime-green: hsl(136, 65%, 51%);
+	--color-bright-cyan: hsl(192, 70%, 51%);
+
+	// SECONDARY COLORS
+	// NEUTRAL
+	--color-grayish-blue: hsl(233, 8%, 62%);
+	--color-light-grayish-blue: hsl(220, 16%, 96%);
+	--color-very-light-grey: hsl(0, 0%, 98%);
+	--color-white: hsl(0, 0%, 100%);
+
+	--color-hover: linear-gradient(
+		to right,
+		var(--color-lime-green),
+		var(--color-bright-cyan)
+	);
+
+	/* side padding */
+	--inline: 8.25rem;
+	--inline-start: 8rem;
+	--inline-end: 8rem;
+
+	--block: 8rem;
+	--block-start: 8rem;
+	--block-end: 8rem;
+
+}
+
+$bp-mobile: 23.4em;
+$bp-medium: 76.3em;
+$bp-tab: 53.3em; // 724
+
+$bp-desktop: 90em;

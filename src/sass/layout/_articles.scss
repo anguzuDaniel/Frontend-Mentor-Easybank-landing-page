@@ -1,0 +1,78 @@
+.article {
+	padding-block: 8rem;
+	padding-inline: var(--inline);
+	background-color: var(--color-very-light-grey);
+
+	&__heading {
+		margin-bottom: 4rem;
+
+		@media (max-width: $bp-medium) {
+			text-align: center;
+		}
+	}
+
+	&__wrapper {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+		gap: 20px;
+
+		@media (max-width: $bp-medium) {
+			gap: 40px;
+		}
+	}
+
+	&__description {
+		padding: 3rem;
+	}
+
+	&__card {
+		border-radius: 5px;
+		overflow: hidden;
+		border-radius: 5px;
+		background-color: var(--color-white);
+
+		&--img {
+			width: 100%;
+			aspect-ratio: 10/8;
+			object-fit: cover;
+			cursor: pointer;
+			transition: all 0.5s ease;
+			overflow: hidden;
+
+			&:hover {
+				transform: scaleX(105%);
+			}
+		}
+
+		&--author {
+			font-size: 1.3rem;
+			color: var(--color-grayish-blue);
+			margin-bottom: 1rem;
+		}
+
+		&--heading {
+			font-size: 2rem;
+			margin-bottom: 1rem;
+			font-weight: 400;
+			cursor: pointer;
+			transition: all 0.5s ease-in-out;
+
+			&:hover {
+				color: var(--color-bright-cyan);
+			}
+		}
+
+		&--paragraph {
+			line-height: 1.4;
+			font-weight: 300;
+		}
+
+		@media (max-width: $bp-medium) {
+			margin-bottom: 1rem;
+		}
+	}
+
+	@media (max-width: $bp-medium) {
+		padding: 10rem 3rem;
+	}
+}

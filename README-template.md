@@ -22,9 +22,9 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Screenshot
 
-![./images/Frontend-Mentor-Easybank-landing-page.png](./screenshot.jpg)
-![./images/Frontend-Mentor-Easybank-landing-page-nav.png](./screenshot.jpg)
-![./images/Frontend-Mentor-Easybank-landing-page-mobile.png](./screenshot.jpg)
+![](./images/Frontend-Mentor-Easybank-landing-page.png)
+![](./images/Frontend-Mentor-Easybank-landing-page-nav.png)
+![](./images/Frontend-Mentor-Easybank-landing-page-mobile.png)
 
 ### Links
 
